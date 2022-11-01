@@ -8,10 +8,10 @@
 
     if($conexion->query($sql) === TRUE){
         echo "Se eliminó el registro con ID " .$id. "<br>";
-        echo "<a href='consultarDatos.php'>Regresar</a>";
+        echo "<a href='consultarDatosProyecto.php'>Regresar</a>";
     } else {
         echo "Ocurrió un error: " . $conexion->error ."<br>";
-        echo "<a href='consultarDatos.php'>Regresar</a>";
+        echo "<a href='consultarDatosProyecto.php'>Regresar</a>";
     }
 
 ?>

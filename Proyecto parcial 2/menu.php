@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="#">Práctica Web</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="https://lh3.googleusercontent.com/aIXADeaCLGozD3YhT43_xGEhF7YdzMjWERdYHNMMZbFvxrS1_dMgzsYN7OtQozMPKdUN" width="60px"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -20,7 +20,7 @@
                 <a class="dropdown-item" href="index.php">Inicio</a>
                 <a class="dropdown-item" href="registrarDatos.php">Registrar</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="consultarDatos.php">Consultar</a>
+                <a class="dropdown-item" href="consultarDatosProyecto.php">Consultar</a>
               </div>
             </li>
           </ul>
