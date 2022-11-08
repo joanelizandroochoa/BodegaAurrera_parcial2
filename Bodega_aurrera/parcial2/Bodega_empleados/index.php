@@ -19,9 +19,11 @@
                         <h2 class="display-4" >Bodega productos</h2><br>
                     </div>
                     <div class="text-center">
-                        <img src="https://mir-s3-cdn-cf.behance.net/projects/404/d94e12116841971.Y3JvcCw4MTgsNjQwLDM4LDA.png" width="450px" ><p>
+                        <img src="https://mir-s3-cdn-cf.behance.net/projects/404/d94e12116841971.Y3JvcCw4MTgsNjQwLDM4LDA.png" width="450px"><p>
                             <h4>Utiliza esta pagina para registrar y consultar los diferentes productos que vendemos en nuestros establecimientos</h4>
-                    </div>                    
+                            <a href="registrarDatos.php" class="btn btn-success">Registrar</a>
+                            <a href="consultarDatos.php" class="btn btn-success">Consultar</a>
+                        </div>
                     <hr class="my-4">
                   </div>
             </div>

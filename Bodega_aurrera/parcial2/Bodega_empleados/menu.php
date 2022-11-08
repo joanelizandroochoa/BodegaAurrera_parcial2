@@ -17,7 +17,7 @@
               </li>
           </ul>
           <form class="form-inline my-2 my-lg-0" method="get" action="resultadoBusqueda.php">
-            <input name="termino"class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <input name="termino"class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
           </form>
         </div>

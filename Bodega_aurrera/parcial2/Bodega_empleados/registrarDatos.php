@@ -36,7 +36,7 @@
                         <input type="date" class="form-control" name="fecha_entrega">
                     </div>
                     <div>
-                        <input type="submit" class="btn btn-primary" value="Registrar">
+                        <input type="submit" class="btn btn-success" value="Registrar">
                         <a href="consultarDatos.php" class="btn btn-danger">Cancelar</a>
                     </div>
                 </form>

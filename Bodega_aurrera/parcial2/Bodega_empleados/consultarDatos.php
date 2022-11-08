@@ -44,7 +44,7 @@
                             <td><?php echo $row["precio"]; ?></td>
                             <td><?php echo $row["fecha_entrega"]; ?></td>
                             <td>
-                                <a href="actualizarRegistro.php?id=<?php echo $row["id"]; ?>" class="btn btn-primary">Editar</a>
+                                <a href="actualizarRegistro.php?id=<?php echo $row["id"]; ?>" class="btn btn-success">Editar</a>
                                 <a href="eliminarRegistro.php?id=<?php echo $row["id"]; ?>" class="btn btn-danger">Eliminar</a>
                             </td>
                         </tr>

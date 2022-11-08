@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 01-11-2022 a las 19:57:10
--- Versión del servidor: 10.4.22-MariaDB
--- Versión de PHP: 8.1.2
+-- Tiempo de generación: 08-11-2022 a las 01:19:57
+-- Versión del servidor: 10.4.25-MariaDB
+-- Versión de PHP: 8.1.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -36,6 +36,17 @@ CREATE TABLE `productos` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
+-- Volcado de datos para la tabla `productos`
+--
+
+INSERT INTO `productos` (`id`, `nombre`, `tipo`, `precio`, `fecha_entrega`) VALUES
+(2, 'Mango', 'Fruta', 30, '0112-11-11'),
+(3, 'Camisa Azul', 'Ropa', 120, '0323-02-11'),
+(4, 'Zanahoria', 'Verdura', 13, '0323-04-12'),
+(5, 'Lego set - Minecraft', 'Juguete', 2000, '0674-11-04'),
+(6, 'Television -Samsung', 'ElectrodomÃ©sticos', 12000, '0431-03-12');
+
+--
 -- Índices para tablas volcadas
 --
 
@@ -53,7 +64,7 @@ ALTER TABLE `productos`
 -- AUTO_INCREMENT de la tabla `productos`
 --
 ALTER TABLE `productos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
